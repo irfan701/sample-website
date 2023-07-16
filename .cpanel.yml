@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/d0em5h0uf5hc/ih.itdatamaster.com/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R image $DEPLOYPATH
   
