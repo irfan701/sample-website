@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN PAGE</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Style The Dropdown Button */
+      .dropbtn {
+        background-color: orangered;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 40% !important;
+        
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        float: right;
+        margin-top: 15px;
+        background-color: orangered !important;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {
+        background-color: orangered;
+      }
+      </style>
+</head>
+<body >
+  
+    <div class="container" >
+      <div class=" row">
+        <div class="col-md-6 ">
+         
+          <h1 class="animate-charcter" style="font-weight: bolder; margin-left: 0%; font-size: 50px;" >SUPERSHOP</h1>
+        </div>
+        <div class="col-md-6 " >
+          
+            
+          <nav class="mobile-hide" style="margin-top: 50px; margin-left: -40px;">
+            <ul class="flexitem second-links">
+                <li style="margin-left: -40px; "><a href="basket.html">HOME</a></li>
+                <li style="margin-left: 25px; font-size: medium;"><a href="about.html">ABOUT US</a></li>
+                <li style="margin-left: 25px;  font-size: medium;"><a href="#">TERM & CONDITIONS</a></li>
+                <li style="margin-left: 25px;  font-size: medium;"><a href="offer.html">BASKET OFFERS
+                    
+                </a></li>
+                
+                
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="margin-left: 1rem; background-color: orange;">
+                  <i class="ri-login-circle-line" style="margin-left: 0.5rem;"></i>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <form action="" style="margin-left: 0%; ">
+                         <div>
+                          <label for="email"><b>Email</b></label>
+                          <br>
+                          <input style="width: 100%;" type="email" placeholder="Enter Your Email" name="email" required>
+                         </div>
+                         <br>
+                         <div>
+                          <label for="password"><b>Password</b></label>
+                          <br>
+                          <input style="width: 100%;" type="password" placeholder="Enter Your Password" name="password" required>
+                         </div>
+                         <br>
+                         <button type="submit" style=" background-color: orangered; height: 2.5rem; border: 1px solid white; border-radius: 10%; width: 80%; margin-left: 2rem;">Sign In</button>
+                         <br>
+                         <label>
+                        
+                         <a href="forget.html" style="color: grey; text-align: center; margin-left: 6rem;">Forget Your Password?</a>
+                         <hr style="text-align: center; margin-left: 6rem;">
+                         <span>
+                         <h6 style="color: grey; margin-left: 8rem; ">NEW CUSTOMER? </h6>
+                         <a href="sign.html" style="color: orange; text-align: center; margin-left: 8rem;">START HERE </a></span>
+                    </form>
+                  </div>
+                </div>
+                
+            </ul>
+           </nav>
+          
+          
+          </div>
+      </div>
+     <div >
+      <div class="row" style="margin-top: 10px;">
+        <div class="col-md-6">
+          <img src="image/main.jpg" s>
+        </div>
+        <div class="col-md-6">
+          <h3 style="margin-top: 100px; font-weight: bolder;font-size: 30px; margin-left: 200px; text-align: center; ">COME & GRAB YOUR <br> NEEDED PRODUCTS.</h3>
+          <h4 style="color: rgb(30, 27, 32); margin-left: 200px; text-align: center;">WE ARE TRUSTED SHOP YOU CAN BUY <BR> YOUR NECESSARY PRODUCTS <br>WITH YOUR PHONE.</h4>
+        
+        <br>
+        <br>
+        <button style="margin-left: 50%; background-color: orangered; text-align: center; color: white; border-radius: 5%; width: 30%; height: 40px;"><a href="basket.html">SHOP NOW!</a></button>
+        </div>
+      </div>
+      
+       
+    </div>
+    </div>
+    
+  
+   
+
+  <!-- <header>
+     
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p class="animate-charcter" > WANT VARIOUS PRODUCTS IN ONE SHOP? </p>
+              </div>
+            </div>
+          </div>
+    </header> -->
+
+
+    <main>
+      <div class="row">
+      
+        
+      <!-- <div class="col-sm-3">
+      <div class="card" style="width: 18rem; margin-left: 20px; margin-top: 20px; border-radius: 10%;">
+        <img src="image/shopno.jpg" class="card-img-top" alt="none">
+      
+            <div class="card-body " style="background-color: red;"  >
+                <h5 class="card-title" style="margin-left: 70px;">SHOPNO</h5>
+                     <p class="card-text">Order grocery online, save money, save time.</p>
+                     <a href="basket.html" class="btn btn-primary" style="margin-left: 80px; background-color: lightcoral;">THEN GO</a>
+              </div>
+        
+      </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;  margin-top: 20px; border-radius: 5%;">
+            <img src="image/basket.PNG" class="card-img-top" alt="none">
+          
+                <div class="card-body " style="background-color: orangered;"  >
+                    <h5 class="card-title" style="margin-left: 70px;">THE BASKET</h5>
+                         <p class="card-text">The Basket is Chittagong's largest and most convenient superstore which enables you to buy grocery, bakery, fruits & vegetables and other products that you needed.</p>
+                         <a href="basket.html" class="btn btn-primary" style="margin-left: 80px; background-color: lightcoral;">THEN GO</a>
+                  
+            
+                </div>
+          </div></div>
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem;  margin-top: 20px; border-radius: 50%; height: 10%;">
+            <img src="image/tasty.jpg" class="card-img-top" alt="none">
+          
+                <div class="card-body " style="background-color: red;"  >
+                    <h5 class="card-title" style="margin-left: 70px;">TASTY TREAT</h5>
+                         <p class="card-text">be late! Grab now! Tasty Treat provides hygienic, mouthwatering, and tasty cakes at a reasonable price.  </p>
+                         <a href="basket.html" class="btn btn-primary" style="margin-left: 80px; background-color: lightcoral;">THEN GO</a>
+                  </div>
+            
+          </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card" style="width: 18rem; margin-top: 20px; border-radius: 5%;">
+                <img src="image/coopers.jpg" class="card-img-top" alt="none">
+              
+                    <div class="card-body " style="background-color: red;"  >
+                        <h5 class="card-title" style="margin-left: 70px;">COOPERS</h5>
+                             <p class="card-text">Come and visit our bakeries for freshly made Cakes and Bakery Products.</p>
+                             <a href="basket.html" class="btn btn-primary" style="margin-left: 80px; background-color: lightcoral;">THEN GO</a>
+                      </div>
+                
+              </div>
+            </div></div> -->
+    
+        <br>
+        <br>
+        <h3 style="color: blueviolet; text-align: center; margin-top: 10%;">PRODUCT CATEGORY</h3>
+        <br> <br>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="margin-top: 5%;">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card" style="margin-left: 10px;">
+                        <img src="image/category/Bakery.jpg" style="height: 9.5rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">BAKERY</p>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <img src="image/category/oil.png" style="height: 9.5rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">COOKING OILS</p>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="image/category/Cleaning.png" style="height: 9.5rem;" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">CLEANING ITEM</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card" style="margin-right: 10px;">
+                            <img src="image/category/Fish.png" style="height: 9.5rem;"class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">FISH</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                       
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card" style="margin-left: 10px;">
+                        <img src="image/category/Bakery.jpg" style="height: 9.5rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">BAKERY</p>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <img src="image/category/oil.png" style="height: 9.5rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">COOKING OILS</p>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="image/category/Cleaning.png" style="height: 9.5rem;" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">CLEANING ITEM</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card" style="margin-right: 10px;">
+                            <img src="image/category/Fish.png" style="height: 9.5rem;" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">FISH</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                       
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card" style="margin-left: 10px;">
+                        <img src="image/category/Bakery.jpg" style="height: 9.5rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">BAKERY</p>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card">
+                        <img src="image/category/oil.png"style="height: 9.5rem;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">COOKING OILS</p>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="image/category/Cleaning.png" style="height: 9.5rem;" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">CLEANING ITEM</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="card" style="margin-right: 10px;">
+                            <img src="image/category/Fish.png"style="height: 9.5rem;" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="card-body">
+                                <p class="card-text " style="text-align: center;">FISH</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                       
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+   
+       
+    </main>
+
+  
+  <footer style="margin-top: 10%;">
+       
+    <br> <br>
+        <div class="container text-center " style="background-color: black">
+            <div class="row ">
+              <div class="col">
+               <p style="color: wheat;">About Shop</p>
+            <p style="color: grey;"> Address: 2464/C Zakir, Hossain Road, Khulshi, Chattogram </p>
+             <h6 style="color: grey;">  Mobile: +8801799997910
+                         Email: sales@thebasketbd.com</h6>
+                        
+               </div>
+              <div class="col">
+                <p style="color: wheat;">thebasketbd.com</p>
+                <p style="color: grey;"><a href="#">Terms & Condition</a>
+                    <a href="#">About Us</a>
+                    <p  style="color: grey;"> Privacy and Cookie Policy</p>
+                <p  style="color: grey;"> Search Terms</p>
+                </p>
+                
+                
+              </div>
+              <div class="col">
+               <p style="color: wheat;">Customer Service</p>
+               <p style="color: grey;">
+                <a>Return & Refund Policy</a>
+                 <a>Int’l Customers</a>
+                   <a>Tax Exempt Program</a>
+                    <a>Contact Us</a>
+                    <a>Feedback</a>
+                   <a>Store Pickup</a>
+               </p>
+              </div>
+              <div class="col">
+                <p style="color: wheat;">Get to know us</p>
+                <p style="color: grey;">
+                    <a>About Us</a>
+                  <a>  Corporate</a>
+                   <a> Suppliers</a>
+                    <a>Careers</a>
+                    <a>The Digital Museum</a>
+                    <a>Product Care Plans</a></p>
+              </div>
+              <div class="col">
+                <p style="color: wheat;">In the spotlight</p>
+                <p style="color: grey;">
+                   <a> Grocery & Gourmet</a>
+                     <a>Beverages</a>
+                        <a>Breakfast & Cereal</a>
+                        <a>Meals</a>
+                    <a>Condiments</a>
+                    <a>Canned Goods</a>
+                </p>
+              </div>
+            </div>
+          </div>
+     </footer>
+
+
+  
+
+
+
+
+
+
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

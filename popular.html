@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPULAR PRODUCTS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .checked {
+  color: orange;
+}
+    </style>
+</head>
+<body>
+    <div  id="page"  class="site">   
+        <header>
+            <div class="header-top">
+               <div class="container">
+                <div class="wrapper flexitem">
+                    <div class="left ">
+                       
+                    </div>
+                    <div class="right"></div>
+                </div>
+            </div>
+    
+       
+    <!--header top-->
+    <div class="header-nav">
+        <div class="container">
+            <div class="wrapper flexitem">
+                <a href="#" class="trigger desktop-hide"><span class="i ri-menu-2-line"></span></a>
+                <div class="left flexitem">
+                <img src="image/basket.PNG">
+                <nav class="mobile-hide">
+                    <ul class="flexitem second-links">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </nav></div>
+                <div class="right">
+<ul class="flexitem second-links justify-content-end">
+    <li class="mobile-hide">
+        
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="margin-top: 15px; margin-left: 20px; background-color: rgb(247, 237, 237);">
+        <i class="ri-heart-line" style="color: orangered;"></i>
+         <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+           <span class="visually-hidden">New alerts</span>
+         </span>
+        
+       </button>
+       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel" style="color: orangered; text-align: center;">
+                  YOUR WISHLIST
+            <i class="ri-heart-line" style="color: orangered;"></i>
+        </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+        <div class="offcanvas-body">
+          <hr>
+
+          <p>You have no items in your wishlist.</p>
+        </div>
+      </div>
+       <div class="clear"></div>    
+    <li>
+      
+           
+     <!--  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="margin-top: 15px; margin-left: 20px; background-color: rgb(247, 237, 237);">
+        
+        <a href="" class="iscart" style="color: orangered" > <i class="ri-shopping-cart-line"></i> </a>
+            
+        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+          <span class="visually-hidden">New alerts</span>
+        </span>
+       
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel" style="color: rgb(255, 174, 0); text-align: center;">YOUR CART</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+      <div class="offcanvas-body">
+        <hr>
+
+        <p>You have no items in your shopping cart.</p>
+      </div>
+    </div>--> 
+
+           <!--<div class="fly-item"><span class="item-number">0</span></div>--> 
+           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" style="margin-top: 15px; margin-left: 20px; background-color: rgb(247, 237, 237);">
+           <a href="" class="iscart" style="color: orangered" > <i class="ri-shopping-cart-line"></i> </a>
+           <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+          </span>
+        </button>  
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel" style="color: orangered; text-align: center;">YOUR CART</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <hr>
+  <div class="offcanvas-body">
+    <p>You have no items in your shopping cart.</p>
+  </div>
+</div>
+           <!--<div class="fly-item"><span class="item-number">0</span></div>--> 
+        
+       <div class="clear"></div>
+        <div class="icon-text justify-content-end">
+            
+        </div>
+       </a></li>
+</ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+ <div class="header-main mobile-hide">
+    
+    <nav class="navbar navbar-expand-lg " style=" background-color: orangered;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 50px;">
+              <li class="nav-item "> 
+                <a class="nav-link active" style="color: black; margin-left: 30px;" aria-current="page" href="basket.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: black; margin-left: 30px;" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " style="color: black; margin-left: 30px;" href="#">TERMS & CONDITIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " style="color: black; margin-left: 30px;" href="offer.html">BASKET OFFERS</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" style="color: black;" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ </div>
+            </div>
+        </header>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="basket.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Popular Item</li>
+          </ol>
+        </nav>
+        <main>
+            <h3 style="color: gray; margin-left: 5px; margin-top: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">POPULAR PRODUCTS</h3>
+<div class="row">
+  <div class="col-sm-2">
+            <div class="left">
+    <div class="card" style="width: 18rem; border-radius: 3px;">
+        <div class="card-body" style="background-color: orange; border-radius: 3px; color: white; align-items: center; ">
+          <p class="card-title" style="text-align: center;">Shop By </p>
+        </div>
+
+        <p style="margin-top: 10px; text-align: center;">Shopping Options</p>
+        <hr style="text-align: center;">
+        <p style="margin-left: 2px;">Price</p>
+        <hr>
+        <p style="margin-left: 2px;">Manuacturer</p>
+        <hr>
+        <p style="margin-left: 2px;">Ratings</p>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </label>
+          </div>
+    </div>
+    </div>
+   </div>
+<div class="col-sm-10">
+  <div class="row">
+  <div class="col-sm-3">
+    <div class="Mycard" style="margin-left: 6rem;">
+      <img src="image/popular product/coca.jpg" >
+      <div class="cardTitle" style="text-align: center;">
+        <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ; text-align: center;">COCACOLA</p>
+        <h3>BDT <SPAN> 45.00</SPAN></h3>
+      </div>
+      <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+      <span style="margin-left: 1rem;" id="counting"> 1 </span>
+    <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+    <span>
+     <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+     <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+    </span>
+      </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="Mycard" style="margin-left: 10rem;">
+            <img src="image/popular product/baking powder.jpg" style="height: 9.5rem;" >
+            <div class="cardTitle" style="text-align: center;">
+              <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;">BAKING POWDER GLAKO 250 GM</p>
+              <h3>BDT <SPAN> 50.00</SPAN></h3>
+            </div>
+            <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+            <span style="margin-left: 1rem;" id="counting"> 1 </span>
+          <button onclick="decrement()"style="border: 1px solid  orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+          <span>
+           <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+           <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+          </span>
+            </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="Mycard" style="float: left; margin-left: 15rem;">
+                    <img src="image/popular product/basmati.png"  >
+                    <div class="cardTitle" style="text-align: center;">
+                      <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;">BASMATI RICE</p>
+                      <h3>BDT <SPAN> 230.00</SPAN></h3>
+                    </div>
+                    <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+                    <span style="margin-left: 1rem;" id="counting"> 1 </span>
+                  <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+                  <span>
+                   <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+                   <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+                  </span>
+                    </div>
+                            </div>
+                           
+                               
+  </div>
+ <!--row end -->
+
+
+ <div class="row" style="margin-top: 1rem;">
+  <div class="col-sm-3">
+    <div class="Mycard" style="margin-left: 6rem;">
+      <img src="image/popular product/butter.jpg" >
+      <div class="cardTitle" style="text-align: center;">
+        <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ; "> AARONG BUTTER 600GM</p>
+        <h3>BDT <SPAN> 70.00</SPAN></h3>
+      </div>
+      <button  onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+      <span style="margin-left: 1rem;" id="counting"> 1 </span>
+    <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+    <span>
+     <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+     <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+    </span>
+      </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="Mycard" style="margin-left: 10rem;">
+            <img src="image/popular product/ghee.jpg" >
+            <div class="cardTitle" style="text-align: center;">
+              <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;">AARONG GHEE</p>
+              <h3>BDT<SPAN> 80.00</SPAN></h3>
+            </div>
+            <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+            <span style="margin-left: 1rem;" id="counting"> 1 </span>
+          <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+          <span>
+           <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+           <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+          </span>
+            </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="Mycard" style="float: left; margin-left: 15rem;">
+                    <img src="image/popular product/kheer.jpg"  >
+                    <div class="cardTitle" style="text-align: center;">
+                      <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;">FRIENDS KHEER MIX RICE PUDDING 150 GM</p>
+                      <h3>BDT<SPAN>  60.00 </SPAN></h3>
+                    </div>
+                    <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+                    <span style="margin-left: 1rem;" id="counting"> 1 </span>
+                  <button onclick="decrement()"style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+                  <span>
+                   <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+                   <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+                  </span>
+                    </div>
+                            </div>
+                           
+                               
+  </div>
+ <!-- second row end -->
+
+ <div class="row" style="margin-top: 1rem;">
+  <div class="col-sm-3">
+    <div class="Mycard" style="margin-left: 6rem;">
+      <img src="image/popular product/water.jpg" >
+      <div class="cardTitle" style="text-align: center;">
+        <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;"> MINERAL WATER 5LITRE</p>
+        <h3>BDT <SPAN> 100.00</SPAN></h3>
+      </div>
+      <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+      <span style="margin-left: 1rem;" id="counting"> 1 </span>
+    <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+    <span>
+     <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+     <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+    </span>
+      </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="Mycard" style="margin-left: 10rem;">
+            <img src="image/popular product/milk.jpg" >
+            <div class="cardTitle" style="text-align: center;">
+              <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;">AARONG MILK LIQUID</p>
+              <h3>BDT<SPAN> 70.00</SPAN></h3>
+            </div>
+            <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+            <span style="margin-left: 1rem;" id="counting"> 1 </span>
+          <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+          <span>
+           <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+           <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+          </span>
+            </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="Mycard" style="float: left; margin-left: 15rem;">
+                    <img src="image/popular product/vita.jpg"  >
+                    <div class="cardTitle" style="text-align: center;">
+                      <p style="color: gray; font-family: Verdana, Geneva, Tahoma, sans-serif ;">AARONG MILK VITA</p>
+                      <h3>BDT<SPAN>  160.00 </SPAN></h3>
+                    </div>
+                    <button onclick="increment()" style="margin-left: 20px; margin-top: 40px; border: 1px solid orangered; border-radius: 10px; width: 2rem;">+</button>
+                    <span style="margin-left: 1rem;" id="counting"> 1 </span>
+                  <button onclick="decrement()" style="border: 1px solid orangered; border-radius: 10px; width: 2rem; margin-left: 0.6rem;">-</button>
+                  <span>
+                   <button style=" margin-left: 1rem;  border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"> <i class="ri-heart-line"></i></button>
+                   <button style=" margin-left: 1rem; border: 1px solid orangered; color: orangered; border-radius: 10px; width: 2rem;"><i class="ri-shopping-cart-line"></i></button>
+                  </span>
+                    </div>
+                            </div>
+ <!-- THIRD row end -->
+  </div>
+  
+
+</div>
+
+</div>
+        </main>
+    
+
+
+
+
+
+
+        <footer style="margin-top: 10%;">
+       
+          <br> <br>
+              <div class="container text-center " style="background-color: black">
+                  <div class="row ">
+                    <div class="col">
+                     <p style="color: wheat;">About Shop</p>
+                  <p style="color: grey;"> Address: 2464/C Zakir, Hossain Road, Khulshi, Chattogram </p>
+                   <h6 style="color: grey;">  Mobile: +8801799997910
+                               Email: sales@thebasketbd.com</h6>
+                              
+                     </div>
+                    <div class="col">
+                      <p style="color: wheat;">thebasketbd.com</p>
+                      <p style="color: grey;"><a href="#">Terms & Condition</a>
+                          <a href="#">About Us</a>
+                          <p  style="color: grey;"> Privacy and Cookie Policy</p>
+                      <p  style="color: grey;"> Search Terms</p>
+                      </p>
+                      
+                      
+                    </div>
+                    <div class="col">
+                     <p style="color: wheat;">Customer Service</p>
+                     <p style="color: grey;">
+                      <a>Return & Refund Policy</a>
+                       <a>Int’l Customers</a>
+                         <a>Tax Exempt Program</a>
+                          <a>Contact Us</a>
+                          <a>Feedback</a>
+                         <a>Store Pickup</a>
+                     </p>
+                    </div>
+                    <div class="col">
+                      <p style="color: wheat;">Get to know us</p>
+                      <p style="color: grey;">
+                          <a>About Us</a>
+                        <a>  Corporate</a>
+                         <a> Suppliers</a>
+                          <a>Careers</a>
+                          <a>The Digital Museum</a>
+                          <a>Product Care Plans</a></p>
+                    </div>
+                    <div class="col">
+                      <p style="color: wheat;">In the spotlight</p>
+                      <p style="color: grey;">
+                         <a> Grocery & Gourmet</a>
+                           <a>Beverages</a>
+                              <a>Breakfast & Cereal</a>
+                              <a>Meals</a>
+                          <a>Condiments</a>
+                          <a>Canned Goods</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+           </footer>
+
+
+</div>
+
+
+
+
+    <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
